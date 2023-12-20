@@ -1,8 +1,21 @@
-function App() {
+// ---------------Imports---------------
+import {
+  Login,
+  PasswordRecovery,
+  Summary,
+  Devices,
+  Steps,
+  Users,
+  Measurements,
+  Rules,
+} from "./pages";
 
+const App = () => {
   return (
-    <div>Hello World</div>
-  )
-}
+    <div>
+      <Summary />
+    </div>
+  );
+};
 
-export default App
+export default App;
